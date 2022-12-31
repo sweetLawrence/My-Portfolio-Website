@@ -142,7 +142,7 @@ img {
   animation: reveal 5s linear forwards;
 }
 .unreveal {
-  animation: unreveal 3s linear backwards;
+  animation: unreveal 1s;
 }
 
 @keyframes reveal {
