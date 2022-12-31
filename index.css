@@ -136,7 +136,7 @@ img {
   overflow-y: hidden;
   opacity: 0;
   height: 0;
-  max-height: 270px;
+  max-height: 240px;
 }
 .reveal {
   animation: reveal 5s linear forwards;
