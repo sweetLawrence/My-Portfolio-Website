@@ -94,7 +94,7 @@ img {
 .name_view .m-name {
   color: rgb(220, 220, 220);
   color: teal;
-  margin: 15px 20% 15px 20%;
+  margin: 15px 17% 15px 20%;
   text-shadow: -2px -2px 4px rgba(16, 9, 9, 0.8);
   mix-blend-mode: overlay;
 }
