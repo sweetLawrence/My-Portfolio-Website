@@ -310,7 +310,7 @@ img {
     background: rgb(244, 243, 243);
   }
   #desc {
-    max-height: 380px;
+    max-height: 150px;
     min-width: 90%;
     overflow-y: auto;
   }
