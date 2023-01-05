@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -14,6 +16,7 @@ body {
   width: 100%;
   overflow-y: auto;
   height: 100vh;
+  /* height: auto; */
 }
 img {
   width: 100px;
@@ -96,7 +99,7 @@ img {
 .name_view .m-name {
   color: rgb(220, 220, 220);
   color: teal;
-  margin: 15px 17% 15px 20%;
+  margin: 15px 20% 15px 25%;
   text-shadow: -2px -2px 4px rgba(16, 9, 9, 0.8);
   /* mix-blend-mode: overlay; */
 }
@@ -138,7 +141,7 @@ img {
   overflow-y: hidden;
   opacity: 0;
   height: 0;
-  max-height: 240px;
+  max-height: 200px;
 }
 .reveal {
   animation: reveal 5s linear forwards;
@@ -259,6 +262,91 @@ img {
 .media_icons .icon a {
   color: black;
 }
+/* form talk to me */
+
+form{
+  /* background: red; */
+  /* margin-top: 500px; */
+  display: flex;
+  /* position: absolute; */
+  
+  /* top: 300px; */
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 50%;
+  /* height: 500px; */
+  height: auto;
+  margin:100px auto;
+  border: 1px solid rgb(128, 128, 128) ;
+}
+form .headerform  {
+  min-height: 100px;
+  width: 100%;
+  background: rgb(128, 128, 128,.3);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 0; 
+  margin-bottom: 1em;
+  font-weight: 600;
+  border-bottom: 1px solid grey;
+ 
+}
+form .headerform h2{
+  width: 100%;
+  font-size: 3rem;
+  margin: .2em auto;
+  margin-left:.5em
+}
+form .headerform h3{
+  width: 100%;
+  font-weight: 300;
+  margin: .5em auto;
+  margin-left:1.5em;
+  /* word-break:break-all; */
+  word-wrap: break-word;
+}
+form input,label,#btnz
+{
+  width: 90%;
+}
+form input{
+  min-height: 38px;
+  margin: 0 auto 10px auto;
+  font-size: 1.2rem;
+  outline: none;
+  border: 1px solid grey;
+}
+form label{
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 auto 10px auto; 
+}
+form button{
+  height: 35px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  margin: 0 auto 10px auto;
+  background: teal; 
+  color: white;
+}
+form button:hover{
+  background: rgb(2, 75, 75);
+}
+form .msg{
+  height: 35px;
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  margin: 0 auto 10px auto; 
+  overflow-y: auto;
+  min-height: 150px;
+  padding: .5rem .5rem;
+  border: 1px solid grey;
+}
+/* form talk to me ends */
 @media (max-width: 700px) {
   .main-nav {
     background-color: teal;
@@ -319,5 +407,83 @@ img {
     max-height: auto;
     min-width: 90%;
     overflow-y: auto;
+  }
+  .description{
+    max-height: 270px;
+  }
+  form{
+    /* background: red; */
+    /* margin-top: 500px; */
+    display: flex;
+    /* position: absolute; */
+    
+    /* top: 300px; */
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 95%;
+    /* height: 500px; */
+    height: auto;
+    margin:100px auto;
+    border: 1px solid rgb(128, 128, 128) ;
+  }
+  form .headerform  {
+    min-height: 100px;
+    width: 100%;
+    background: rgb(128, 128, 128,.3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0; 
+    margin-bottom: 1em;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+   
+  }
+  form .headerform h2{
+    width: 100%;
+    font-size: 2.5rem;
+    margin: .2em auto;
+    margin-left:.5em
+  }
+  form .headerform h3{
+    width: 100%;
+    font-weight: 300;
+    margin: .5em auto;
+    margin-left:1.5em
+  }
+  form input,label,#btnz
+  {
+    width: 90%;
+  }
+  form input{
+    min-height: 38px;
+    margin: 0 auto 10px auto;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid grey;
+  }
+  form label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 auto 10px auto; 
+  }
+  form button{
+    height: 35px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin: 0 auto 10px auto; 
+  }
+  form .msg{
+    height: 35px;
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin: 0 auto 10px auto; 
+    overflow-y: auto;
+    min-height: 150px;
+    padding: .5rem .5rem;
+    border: 1px solid grey;
   }
 }
