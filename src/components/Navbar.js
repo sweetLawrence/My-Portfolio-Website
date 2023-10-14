@@ -14,12 +14,9 @@ const Navbar = ({ bgcolor }) => {
     const [activeItem, setActiveItem] = useState(null);
 
     useEffect(() => {
-        // Initialize scrollSpy
         scrollSpy.update();
 
-        // Add a scroll event listener to change the active item
         Events.scrollEvent.register('begin', (to, element) => {
-            // 'to' contains the name of the target section
             setActiveItem(to);
         });
 
@@ -35,13 +32,12 @@ const Navbar = ({ bgcolor }) => {
             <Link className='link' to='/home'>
 
                 <ScrollLink
-                    to={'home'} // This should match the 'name' of the Element below
+                    to={'home'} 
                     spy={true}
                     smooth={true}
-                    duration={1000} // Adjust the duration as needed
+                    duration={1000}
                 >
-                    {/* Scroll to {item} */}
-                    {/* <li className='row' key={index}>{item}</li> */}
+            
                     <div 
                     style={navStyle}
                     className="logo">Lawrence</div>
@@ -58,13 +54,12 @@ const Navbar = ({ bgcolor }) => {
                             to={`/${item.toLowerCase()}`}>
 
                             <ScrollLink
-                                to={item.toLowerCase()} // This should match the 'name' of the Element below
+                                to={item.toLowerCase()} 
                                 spy={true}
                                 smooth={true}
-                                duration={1000} // Adjust the duration as needed
+                                duration={1000} 
                             >
-                                {/* Scroll to {item} */}
-                                {/* <li className='row' key={index}>{item}</li> */}
+                            
                                 <li
                                     className={`row ${activeItem === item.toLowerCase() ? 'active' : ''}`}
                                     style={activeItem === item.toLowerCase() ? navStyle : null}

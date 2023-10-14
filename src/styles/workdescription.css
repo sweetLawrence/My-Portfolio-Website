@@ -5,14 +5,8 @@
     padding: .5em;
     display: flex;
     align-items:flex-start;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-ar; */
-    /* border: 2px solid orange; */
-    
-    /* box-shadow: 5px 5px 15px #8e9a9d; */
 }
 .work-description .icon{
-    /* border: .1px solid #8e9a9d; */
     box-shadow: 5px 5px 15px #8e9a9d;   
     margin-right: .8em;
     border-radius: 10px;

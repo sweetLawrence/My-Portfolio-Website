@@ -8,9 +8,7 @@
   width: 100%;
   left: 0;
   z-index: 1;
-  /* background: transparent; */
-  /* border-bottom: .1px solid grey; */
-  /* background: black; */
+
 }
 .link{
   text-decoration: none;
@@ -46,9 +44,6 @@ a{
 }
 .row:hover{
   scale: 1.1;
-  /* box-shadow: 0 4px 15px #2596be; */
-  /* text-decoration: underline; */
-  /* color: purple; */
 }
 .social-media {
     display: inline-flex;
@@ -65,6 +60,3 @@ a{
 .transparent{
   background: transparent;
 }
-/* .link .active { */
-  /* color: red; 
-} */

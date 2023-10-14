@@ -25,13 +25,12 @@ const Homepage = ({ color }) => {
                     to={`/about`}>
 
                     <ScrollLink
-                        to={`about`} // This should match the 'name' of the Element below
+                        to={`about`}
                         spy={true}
                         smooth={true}
-                        duration={600} // Adjust the duration as needed
+                        duration={600} 
                     >
-                        {/* Scroll to {item} */}
-                        {/* <li className='row' key={index}>{item}</li> */}
+                     
                         <KeyboardArrowDownIcon style={{color:color}}/>
                     </ScrollLink>
 
