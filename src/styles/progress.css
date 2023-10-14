@@ -1,0 +1,23 @@
+.progress{
+    margin: 3em auto;
+    width: 20%;
+    /* background: #8e9a9d; */
+    border-right: 1px solid #8e9a9d;
+    border-radius: 1px;
+    padding: .5em;
+    /* box-shadow: 5px 5px 15px #8e9a9d; */
+
+}
+.progress .figures{
+    font-size: 3.3em;
+    text-align: center;
+    padding: .5em;
+    font-weight: 700;
+    color: #8e9a9d;
+}
+.progress .text{
+    font-size: 1.5em;
+    text-align: center;
+    color: #575858;
+
+}

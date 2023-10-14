@@ -1,0 +1,49 @@
+.utility .container{
+    border: .1px solid #c6c6c6;
+    min-width:50px;
+    width: 90%;
+    /* max-width:600px; */
+    overflow: auto;
+    min-height: 250px;
+    border-radius: 7px;
+    margin: 1em;
+    padding: .9em;
+    flex-shrink: 2;
+    /* margin-bottom: .5em; */
+    /* box-shadow: 3px 7px 10px grey; */
+}
+.utility .container .date{
+    border: .2px solid #fff;
+    border-radius: 12px;
+    color: white;
+    padding: .4em;
+    /* background-color: red; */
+    font-size: .9em;
+    font-weight: 700;
+    width: 25%;
+    text-align: center;
+   
+}
+.utility .container .title,.date,.subtitle{
+    margin-bottom: .6em;
+}
+
+.utility .container .title{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: .3em;
+    /* margin-left: .8em; */
+}
+.utility .container .subtitle{
+    font-size: .9em;
+    /* margin-left: .8em; */
+    width: 100%;
+    /* padding: .8em; */
+    font-weight: 660;
+    /* margin-left: .8em; */
+    color: red;
+}
+.utility .container .content{
+    font-weight: 500;
+    word-wrap: break-word;
+}

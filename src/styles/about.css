@@ -1,0 +1,71 @@
+.about {
+  padding-top: 8em;
+  width: 95%;
+  height: auto;
+  margin: 9em auto 0 auto;
+  text-align: center;
+  /* border: 3px solid orange; */
+  scroll-snap-align: center;
+}
+.about h1 {
+  font-size: 3em;
+}
+.top {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  padding: 0.5em;
+}
+.color {
+  color: blue;
+}
+.top .underline {
+  width: 17%;
+  height: 2px;
+  background: red;
+  margin: 0 auto;
+}
+.middlepart {
+  display: flex;
+  /* background: red; */
+  /* width: 100%; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.middlepart .left{
+    width: 70%;
+    padding: 1.2em;
+}
+.left h2{
+    margin: .8em;
+    text-align: left;
+}
+.left p{
+    margin:.4em; 
+    word-wrap: break-word;
+    font-size: 1.1em;
+    /* border: 1px solid orange; */
+    text-align: left;
+}
+.middlepart .right{
+    /* background: red; */
+    margin: 0 auto;
+    width: 25%;
+    padding: .5em;
+}
+.right ul li{
+    list-style: none;
+    text-align: left;
+    padding: .8em;
+    padding-left: 0;
+    font-size: 1.1em;
+    border-bottom: .1px solid rgb(231, 230, 230);
+    width: 90%;
+}
+
+.right ul li .bold{
+    font-weight: bold;
+}
+.progress-counter{
+    display: flex;
+}

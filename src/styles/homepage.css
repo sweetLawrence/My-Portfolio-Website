@@ -1,0 +1,72 @@
+.home {
+ padding-top: 1em;
+}
+.bg-image {
+  width: 100%;
+  height: 99.8vh;
+}
+.bg-image img {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+.middleinfo {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 10em auto 0 auto;
+}
+.middleinfo h1 {
+  padding: 0.8em;
+  font-size: 1.7em;
+}
+.middleinfo .title {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+.middleinfo .based {
+  font-size: 1.1em;
+  /* font-weight: bold; */
+}
+.arrow {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5%;
+  /* font-size: 7.4em; */
+  scale: 1.5;
+  margin: 0 auto;
+  animation: moveupanddown 6s forwards infinite linear;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes moveupanddown {
+    0%{
+        transform :translateY(0px);
+    }
+      
+    25%{
+        transform :translateY(25px);
+    }
+      
+    50%{
+        transform :translateY(50px);
+    }
+      
+    75%{
+        transform :translateY(25px);
+    }
+    100%{
+        transform :translateY(0px);
+    }
+    
+}
+
+/* style={{ backgroundColor: bgcolor }} */
+/* style={{ backgroundColor: bgcolor,background:transparen }} */

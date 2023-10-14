@@ -1,0 +1,69 @@
+.contacts {
+    padding-top: 2em;
+}
+.contacts .top {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  padding: 0.5em;
+}
+.contacts .top h1 {
+  font-size: 3em;
+  padding-top: 0.9em;
+}
+.contacts .bottom-part {
+  display: flex;
+}
+.contacts .bottom-part .left {
+  /* background: red; */
+  width: 25%;
+  margin: 0.8em;
+  padding: 0.8em;
+}
+.b-s .cont {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.top-s{
+    margin-bottom: 1.5em;
+}
+.cont p{
+    margin-left: .8em;
+}
+.contacts .bottom-part .right {
+  /* background: green; */
+  width: 75%;
+  text-align: center;
+}
+.contacts .bottom-part .right .t-s {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8em;
+  margin-top: 2.0em;
+}
+.contacts .bottom-part .right .t-s input {
+  height: 50px;
+  width: 47%;
+  border-radius: 10px;
+  border:.1px solid #cac8c8;
+  outline: none;
+  font-size: 1.3em;
+  padding: 0.5em;
+}
+.contacts .bottom-part .right .b-ss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .bottom-part .right .b-ss textarea {
+  width: 94%;
+  min-height: 200px;
+  outline: none;
+  font-size: 1.3em;
+  padding: 0.5em;
+  border:.1px solid  #cac8c8;
+  max-width: calc(94%)px;
+
+  /* padding: .5em; */
+  /* margin:1.2em; */
+}

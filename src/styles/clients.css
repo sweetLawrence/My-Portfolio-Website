@@ -1,0 +1,53 @@
+.client-remarks {
+  border: 0.1px solid #e5e4e4;
+  min-width: 50px;
+  width: 40%;
+  background: #f8f9fa;
+  /* max-width:600px; */
+  overflow: auto;
+  min-height: 250px;
+  border-radius: 7px;
+  margin: 1em;
+  padding: 0.9em;
+  flex-shrink: 2;
+}
+.clients{
+    padding-top: 10em;
+    /* background: red; */
+}
+.clients .top {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  padding: 0.5em;
+}
+.clients .top h1 {
+  font-size: 3em;
+  padding-top: 0.9em;
+}
+
+.clients .bottom-part {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-basis: 1; */
+    /* width:50%; */
+  }
+.client-remarks .top-section {
+  /* background: red; */
+  /* text-align: center; */
+}
+.client-remarks .top-section .title {
+  /* padding: .8em; */
+  margin: .3em;
+  color: #c6c6c6;
+}
+.client-remarks .top-section .cell {
+  font-style: italic;
+}
+.client-remarks .remarks {
+  /* background: red; */
+  margin-top: 1.5em;
+  /* margin: .8em; */
+}

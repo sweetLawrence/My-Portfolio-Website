@@ -1,0 +1,40 @@
+.main{
+  background: #f8f9fa;
+  width: 100%;
+}
+.work {
+  padding-top: 5em;
+  display: grid;
+  place-items: center;
+  margin: 1em auto 0 auto;
+  width: 85%;
+  
+  /* margin-left: 3em; */
+  /* margin-right: 3em; */
+  /* box-shadow: 5px 5px 15px #8e9a9d; */
+}
+.work .top {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  padding: 0.5em;
+}
+.work .top h1 {
+  font-size: 3em;
+  padding-top: .9em;
+}
+
+.work .top .underline {
+  width: 17%;
+  height: 2px;
+  background: red;
+  margin: 0 auto;
+}
+
+.work .bottom-part {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-basis: 1; */
+  /* width:50%; */
+}
