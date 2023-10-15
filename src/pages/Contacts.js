@@ -28,11 +28,11 @@ const Contacts = ({ color }) => {
                     <div className="b-s">
                         <div className="cont">
                             <CallIcon style={{ fontSize: '1.7em', color: color }}/>
-                            <p>0701010101</p>
+                            <p>0719702831</p>
                         </div>
                         <div className="cont">
                             <WhatsAppIcon style={{ fontSize: '1.7em', color: color }}/>
-                            <p>0701010101</p>
+                            <p>0719702831, 0745652607</p>
                         </div>
                         <div className="cont">
                             <MailIcon style={{ fontSize: '1.7em', color: color }}/>
