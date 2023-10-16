@@ -36,7 +36,7 @@ const About = ({ color }) => {
                     <ul>
                         <li><span className="bold">Name</span>:Lawrence Tsungu</li>
                         <li><span className="bold">Email</span>:
-                            <span style={emailStyle}>tsungulawrence@gmail.com</span></li>
+                            <span style={emailStyle}><a style={emailStyle} href="mailto:your.email@gmail.com?subject=Talk to me%20Here">tsungulawrence@gmail.com</a></span></li>
                         <li><span className="bold">Age</span>:19</li>
                         <li><span className="bold">From</span>:Nairobi, Kenya</li>
                     </ul>
