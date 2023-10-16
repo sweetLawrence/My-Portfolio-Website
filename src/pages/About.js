@@ -23,12 +23,14 @@ const About = ({ color }) => {
             <div className="middlepart">
                 <div className="left">
                     <h2>I am <span className="color" style={emailStyle}>Lawrence Tsungu</span>, Web Developer</h2>
-                    <p>I help you build brand for your business at an affordable price.Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.Delivering work within time and budget which meets client’s requirements is our moto.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Libero suscipit sequi voluptates cumque consequatur error a adipisci rem?
-                        Repudiandae a labore perspiciatis ipsam ipsum,
-                        incidunt vero commodi. Amet, ab adipisci.
-                    </p>
+                    <p>Crafting Digital Experiences with Precision – Your Trusted Web Developer. I bring your visions to life through innovative web solutions, turning ideas into stunning, user-friendly websites. With a passion for clean code and cutting-edge technology, I'm dedicated to enhancing your online presence and helping your business thrive in the digital landscape. Whether it's a <span 
+                    style={emailStyle}
+                    className='color'>responsive design, e-commerce functionality, or custom web applications,</span> I'm here to make your online dreams a reality.</p>
+                    
+                    <p>Not only do I create amazing websites, but I also handle <span style={emailStyle} className='color'>hosting</span> and <span style={emailStyle} className='color'>troubleshooting,</span> ensuring your online presence remains seamless and hassle-free. Whether it's setting up reliable hosting solutions or quickly resolving any technical challenges, I've got you covered. Let's collaborate to shape your online success, providing end-to-end web solutions with a commitment to excellence!</p>
+                    <p 
+                    style={emailStyle}
+                    className='color'>#I always deliver</p>
                 </div>
                 <div className="right">
                     <ul>
@@ -52,10 +54,10 @@ const About = ({ color }) => {
                 </div>
             </div>
             <div className="progress-counter">
-                <Progress figure="2+" text="Years Experience" />
-                <Progress figure="5+" text="Happy Clients" />
-                <Progress figure="5+" text="Projects" />
-                <Progress figure="3+" text="Awards" />
+                <Progress figure="1.5+" text="Years Experience" />
+                <Progress figure="2+" text="Happy Clients" />
+                <Progress figure="3+" text="Projects" />
+                <Progress figure="2+" text="Awards" />
 
             </div>
         </div>
