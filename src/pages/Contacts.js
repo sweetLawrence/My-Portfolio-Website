@@ -5,6 +5,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MailIcon from '@mui/icons-material/Mail';
 import Button from '../components/Button';
 import emailjs from '@emailjs/browser';
+import { Toaster, toast } from 'sonner'
 
 const Contacts = ({ color }) => {
     const [sentStatus, setSentStatus] = useState(false);
@@ -18,8 +19,10 @@ const Contacts = ({ color }) => {
         emailjs.sendForm('service_2gd73or', 'template_824wu7f', form.current, '-8ZfrslCkIVcHkhaM')
             .then((result) => {
                 console.log(result.text);
+                toast.success('Email sent successfully 😁');
             }, (error) => {
                 console.log(error.text);
+                toast.error('Failed to send email');
             });
         setSentStatus(!sentStatus);
         e.target.reset();
@@ -67,6 +70,7 @@ const Contacts = ({ color }) => {
 
                             <input type="text" name='name' placeholder='Enter Name' />
                             <input type="email" name="email" placeholder='Enter Email' />
+                            {/* <Toaster position="bottom-right"/> */}
                         </div>
                         <div className="b-ss">
                             <textarea
@@ -79,6 +83,9 @@ const Contacts = ({ color }) => {
 
                 </div>
             </div>
+            <Toaster 
+            style={{padding:'3em' }}
+            richColors position="top-center" />
         </div>
     )
 }
