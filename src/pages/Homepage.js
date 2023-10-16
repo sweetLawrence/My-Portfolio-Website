@@ -16,26 +16,27 @@ const Homepage = ({ color }) => {
                 <h1>Welcome</h1>
                 <p className='title'>I am Lawrence Tsungu.</p>
                 <p className='based'>based in Nairobi,Kenya</p>
-                <Button content="Hire me" bgcolor={color} />
+                <a href="mailto:tsungulawrence@gmail.com?subject=Requesting Your Services%20Here"><Button content="Hire me" bgcolor={color} /></a>
+
 
             </div>
             <div className="arrow">
                 <Link
-        
+
                     to={`/about`}>
 
                     <ScrollLink
                         to={`about`}
                         spy={true}
                         smooth={true}
-                        duration={600} 
+                        duration={600}
                     >
-                     
-                        <KeyboardArrowDownIcon style={{color:color}}/>
+
+                        <KeyboardArrowDownIcon style={{ color: color }} />
                     </ScrollLink>
 
                 </Link>
-                
+
             </div>
 
 
