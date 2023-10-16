@@ -1,10 +1,10 @@
 import '../styles/button.css';
 import React from 'react'
 
-const Button = ({ content, bgcolor }) => {
+const Button = ({ content, bgcolor, type }) => {
   const buttonStyle = {
     // background:white,
-    color:'black',
+    color: 'black',
     transition: 'background-color 0.3s',
   };
 
@@ -19,6 +19,7 @@ const Button = ({ content, bgcolor }) => {
   return (
     <div className='button'>
       <button
+        type={type}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={buttonStyle}>{content}</button>
