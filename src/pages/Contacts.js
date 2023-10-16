@@ -23,7 +23,7 @@ const Contacts = ({ color }) => {
             });
         setSentStatus(!sentStatus);
         e.target.reset();
-        window.location.reload();
+        // window.location.reload();
     };
     console.log(sentStatus)
     return (
