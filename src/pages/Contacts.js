@@ -19,7 +19,7 @@ const Contacts = ({ color }) => {
         emailjs.sendForm('service_2gd73or', 'template_824wu7f', form.current, '-8ZfrslCkIVcHkhaM')
             .then((result) => {
                 console.log(result.text);
-                toast.success('Email sent successfully 😁');
+                toast.success('Email sent successfully');
             }, (error) => {
                 console.log(error.text);
                 toast.error('Failed to send email');
@@ -84,7 +84,6 @@ const Contacts = ({ color }) => {
                 </div>
             </div>
             <Toaster 
-            style={{padding:'3em' }}
             richColors position="top-center" />
         </div>
     )
