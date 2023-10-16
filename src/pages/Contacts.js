@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import '../styles/contacts.css';
 import CallIcon from '@mui/icons-material/Call';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -7,21 +7,25 @@ import Button from '../components/Button';
 import emailjs from '@emailjs/browser';
 
 const Contacts = ({ color }) => {
+    const [sentStatus, setSentStatus] = useState(false);
     const underlineStyle = {
         backgroundColor: color,
     }
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-    
+
         emailjs.sendForm('service_2gd73or', 'template_824wu7f', form.current, '-8ZfrslCkIVcHkhaM')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()
-      };
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        setSentStatus(!sentStatus);
+        e.target.reset();
+        window.location.reload();
+    };
+    console.log(sentStatus)
     return (
         <div className='contacts'>
             <div className="top">
@@ -69,7 +73,7 @@ const Contacts = ({ color }) => {
                                 placeholder='Enter Your Message...'
                                 name="message"></textarea>
                         </div>
-                        <Button type='submit 'content="Send" bgcolor={color} />  
+                        <Button type='submit ' content="Send" bgcolor={color} />
                     </form>
 
 
