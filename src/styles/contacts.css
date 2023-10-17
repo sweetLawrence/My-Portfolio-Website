@@ -65,3 +65,23 @@
   max-width: calc(94%)px;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .contacts .top{
+    width: 100%;
+  }
+  .contacts .top h1 {
+    font-size: 2.5em;
+  }
+  .contacts .bottom-part{
+    flex-direction: column;
+  }
+  .contacts .bottom-part .left{
+    width: 100%;
+    order: 2;
+  }
+  .contacts .bottom-part .right{
+    order: 1;
+    width: 100%;
+  }
+}

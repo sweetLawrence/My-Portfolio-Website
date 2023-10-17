@@ -11,3 +11,12 @@
     box-shadow:10px 10px 10px #fbfdff;
     /* border-color:#f8f9fa; */
   }
+
+  @media only screen and (max-width: 768px) {
+    .button button {
+
+      margin: .5em;
+      font-size: 1.4em;
+    
+    }
+  }

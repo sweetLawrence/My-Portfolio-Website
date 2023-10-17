@@ -27,10 +27,18 @@
   /* background: green; */
   width: 100%;
 }
-.resume .bottom-part .left{
-    /* background: yellow; */
+.resume .bottom-part .left {
+  /* background: yellow; */
 }
-.resume .bottom-part .right h2{
-    padding: .5em;
-    /* background: red; */
+.resume .bottom-part .right h2 {
+  padding: 0.5em;
+  /* background: red; */
+}
+@media only screen and (max-width: 768px) {
+  .resume .bottom-part {
+    flex-direction: column;
+  }
+  .resume .top h1 {
+    font-size: 2.5em;
+  }
 }

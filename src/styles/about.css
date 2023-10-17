@@ -30,40 +30,94 @@
   flex-wrap: wrap;
   /* align-items: center; */
 }
-.middlepart .left{
-    width: 70%;
-    padding: 1.2em;
+.middlepart .left {
+  width: 70%;
+  padding: 1.2em;
 }
-.left h2{
-    margin: .8em;
-    text-align: left;
+.left h2 {
+  margin: 0.8em;
+  text-align: left;
 }
-.left p{
-    margin:.4em; 
-    word-wrap: break-word;
-    font-size: 1.1em;
-    /* border: 1px solid orange; */
-    text-align: left;
+.left p {
+  margin: 0.4em;
+  word-wrap: break-word;
+  font-size: 1.1em;
+  /* border: 1px solid orange; */
+  text-align: left;
 }
-.middlepart .right{
-    /* background: red; */
-    margin: 0 auto;
-    width: 25%;
-    padding: .5em;
+.middlepart .right {
+  /* background: red; */
+  margin: 0 auto;
+  width: 25%;
+  padding: 0.5em;
 }
-.right ul li{
-    list-style: none;
-    text-align: left;
-    padding: .8em;
-    padding-left: 0;
-    font-size: 1.1em;
-    border-bottom: .1px solid rgb(231, 230, 230);
-    width: 90%;
+.right ul li {
+  list-style: none;
+  text-align: left;
+  padding: 0.8em;
+  padding-left: 0;
+  font-size: 1.1em;
+  border-bottom: 0.1px solid rgb(231, 230, 230);
+  width: 90%;
 }
 
-.right ul li .bold{
-    font-weight: bold;
+.right ul li .bold {
+  font-weight: bold;
 }
-.progress-counter{
-    display: flex;
+.progress-counter {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .about{
+    
+  }
+  .about .middlepart {
+    flex-direction: column;
+    /* background: red; */
+    width: 100%;
+  }
+  .about .top{
+    width: 100%;
+  }
+  .about .top h1 {
+    font-size: 2.5em;
+    /* background: red; */
+  }
+  .about .left {
+    /* margin: .1em; */
+    /* text-align: left; */
+    /* background: green; */
+    width: 100%;
+    padding: .6em;
+  }
+  .left p {
+    margin-bottom: 0.2em;
+    word-wrap: break-word;
+    font-size: .9em;
+    /* border: 1px solid orange; */
+    text-align: left;
+    width: 100%;
+
+  }
+  .about .right {
+    margin-top: .9em;
+    width: 100%;
+    background: #f8f9fa;
+  }
+
+  .right ul li {
+    list-style: none;
+    text-align: left;
+    padding: 0.8em;
+    padding-left: 0;
+    font-size: 1em;
+    border-bottom: 0.1px solid rgb(231, 230, 230);
+    width: 90%;
+  }
+
+  .about .progress-counter{
+    flex-wrap: wrap;
+    /* background: red; */
+  }
 }
