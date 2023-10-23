@@ -31,13 +31,11 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* flex-basis: 1; */
-  /* width:50%; */
+
 }
 .client-remarks .top-section {
 }
 .client-remarks .top-section .title {
-  /* padding: .8em; */
   margin: 0.3em;
   color: #c6c6c6;
 }
@@ -47,7 +45,6 @@
 .client-remarks .remarks {
   /* background: red; */
   margin-top: 1.5em;
-  /* margin: .8em; */
 }
 
 @media only screen and (max-width: 768px) {

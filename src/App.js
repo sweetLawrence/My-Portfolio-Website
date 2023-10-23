@@ -1,24 +1,34 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Link as ScrollLink, Element } from 'react-scroll';
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
-import Progress from './components/Progress';
-import WorkDescription from './components/WorkDescription';
 import Work from './pages/Work';
 import Resume from './pages/Resume';
 import Clients from './pages/Clients';
 import Client from './components/Client';
 import Contacts from './pages/Contacts';
+import MobileNav from './components/MobileNav';
+import { useState } from 'react';
 
 function App() {
+  const [mobileNavVisible, setMobileNavVisible] = useState(false);
   const color = "green"
+  const toggleMobileNav = () => {
+    setMobileNavVisible(!mobileNavVisible);
+  };
+  const closeMobileNav = () => {
+    setMobileNavVisible(false);
+  };
 
   return (
     <Router>
       <div className="App">
-        <Navbar bgcolor={color} />
+
+        <Navbar bgcolor={color} toggleMobileNav={toggleMobileNav} />
+        <MobileNav color={color} mobileNavVisible={mobileNavVisible} closeMobileNav={closeMobileNav} />
+
         <Element name="home">
           <Homepage color={color} />
         </Element>
@@ -39,9 +49,6 @@ function App() {
         </Element>
 
         <Routes>
-          {/* <Route path="/home" element={<Homepage />} />
-          <Route path="/about" element={<About color="red"/>} />
-          <Route path="/work" element={<Work />} /> */}
           <Route path="/as" element={<Client />} />
         </Routes>
 

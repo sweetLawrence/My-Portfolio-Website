@@ -3,7 +3,6 @@ import React from 'react'
 
 const Button = ({ content, bgcolor, type }) => {
   const buttonStyle = {
-    // background:white,
     color: 'black',
     transition: 'background-color 0.3s',
   };

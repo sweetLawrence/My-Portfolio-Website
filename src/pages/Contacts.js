@@ -64,13 +64,12 @@ const Contacts = ({ color }) => {
                     </div>
                 </div>
                 <div className="right">
-                    {/* <h2>Send Me a Note</h2> */}
+
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="t-s">
 
                             <input type="text" name='name' placeholder='Enter Name' />
                             <input type="email" name="email" placeholder='Enter Email' />
-                            {/* <Toaster position="bottom-right"/> */}
                         </div>
                         <div className="b-ss">
                             <textarea
@@ -79,7 +78,6 @@ const Contacts = ({ color }) => {
                         </div>
                         <Button type='submit ' content="Send" bgcolor={color} />
                     </form>
-
 
                 </div>
             </div>

@@ -5,26 +5,21 @@ import { Link as ScrollLink, Element, scrollSpy, Events } from 'react-scroll';
 import Button from '../components/Button';
 import res from '../Images/reservations.webp'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import MobileNav from '../components/MobileNav';
 
 const Homepage = ({ color }) => {
     return (
         <div className='home'>
-            {/* <div className="bg-image"> */}
-            {/* <img src={res} alt="res" /> */}
-            {/* </div> */}
             <div className="middleinfo">
                 <h1>Welcome</h1>
+                
                 <p className='title'>I am Lawrence Tsungu.</p>
                 <p className='based'>based in Nairobi,Kenya</p>
                 <a href="mailto:tsungulawrence@gmail.com?subject=Requesting Your Services%20Here"><Button content="Hire me" bgcolor={color} /></a>
 
-
             </div>
             <div className="arrow">
-                <Link
-
-                    to={`/about`}>
-
+                <Link to={`/about`}>
                     <ScrollLink
                         to={`about`}
                         spy={true}
@@ -38,7 +33,6 @@ const Homepage = ({ color }) => {
                 </Link>
 
             </div>
-
 
         </div>
     )
