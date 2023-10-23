@@ -7,12 +7,14 @@
 }
 body{
   background: #ffffff;
+  overflow-x: hidden;
 }
 
 .App {
   /* text-align: center; */
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
