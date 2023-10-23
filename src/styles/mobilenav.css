@@ -1,12 +1,12 @@
 @media only screen and (max-width: 768px) {
   .mobile-nav {
-    /* border: 1px solid #2596be; */
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     margin-top: 4em;
-    scale: .8;
+    scale: .9;
+    border-radius: 10px;
   }
 
 
@@ -17,21 +17,19 @@
   .mobile-nav .navigation .mobile-row {
     list-style: none;
     font-weight: 540;
-    color: white;
     background: black;
-    
     font-size: 1.2em;
     margin-left: 0.2em;
-
     border-bottom: 1px solid gray;
-    color: black;
     color: white;
     cursor: pointer;
     transition: all 0.5s;
-    padding: 0.6em;
+    padding: 0.9em;
     padding-left: 0.5em;
+    filter: opacity(.9);
     /* text-align: right; */
   }
+
   .mobile-nav .navigation .mobile-row:hover {
     /* scale: 1.1; */
     color: green;
