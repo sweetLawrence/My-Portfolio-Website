@@ -4,9 +4,10 @@
   width: 90%;
   max-width: 550px;
   overflow: auto;
-  min-height: 250px;
+  min-height: 260px;
   border-radius: 7px;
   margin: 1em;
+  margin-bottom: .1em;
   padding: 0.9em;
   flex-shrink: 2;
 }
