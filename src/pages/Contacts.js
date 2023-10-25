@@ -43,6 +43,7 @@ const Contacts = ({ color }) => {
                     <div className="top-s">
                         <p>4th Floor,B38</p>
                         <p>Ago Gracious Apartments</p>
+                
                         <p>Juja</p>
                     </div>
                     <div className="b-s">

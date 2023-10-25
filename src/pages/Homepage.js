@@ -3,7 +3,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink, Element, scrollSpy, Events } from 'react-scroll';
 import Button from '../components/Button';
-import res from '../Images/reservations.webp'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import MobileNav from '../components/MobileNav';
 

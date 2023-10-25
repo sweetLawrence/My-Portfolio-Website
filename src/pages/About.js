@@ -14,7 +14,7 @@ const About = ({ color }) => {
     return (
         <div className='about'>
             <div className="top">
-                <h1>Know my stuff</h1>
+                <h1>Get to Know Me</h1>
                 <div
                     style={underlineStyle}
                     className="underline"></div>
@@ -37,7 +37,7 @@ const About = ({ color }) => {
                         <li><span className="bold">Name</span>:Lawrence Tsungu</li>
                         <li><span className="bold">Email</span>:
                             <span style={emailStyle}><a style={emailStyle} href="mailto:your.email@gmail.com?subject=Talk to me%20Here">tsungulawrence@gmail.com</a></span></li>
-                        <li><span className="bold">Age</span>:19</li>
+                        <li><span className="bold">Github</span>:sweetLawrence</li>
                         <li><span className="bold">From</span>:Nairobi, Kenya</li>
                     </ul>
                     <div className="download-cv">

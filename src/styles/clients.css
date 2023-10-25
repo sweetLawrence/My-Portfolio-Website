@@ -45,6 +45,7 @@
 .client-remarks .remarks {
   /* background: red; */
   margin-top: 1.5em;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 768px) {

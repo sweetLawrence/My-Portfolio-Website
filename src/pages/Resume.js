@@ -18,7 +18,7 @@ const Resume = ({ color }) => {
                 <div className="bottom-part">
                     <div className="left">
                         <h2>My Education</h2>
-                        <Utilitybox date="2022-present" title="Telecommunication and Information Engineering" subtitle="JKUAT" content="My telecom engineering course in college enhances my web development skills by imparting deep knowledge of network protocols, data transmission, and signal processing. This background is invaluable in optimizing web applications for efficiency and connectivity, making me a more versatile developer." bgcolor={color} />
+                        <Utilitybox date="2022-present" title="Telecommunication and Information Engineering" subtitle="JKUAT" content="My telecommunication engineering training in university enhances my web development skills by imparting deep knowledge of network protocols, data transmission, and signal processing. This background is invaluable in optimizing web applications for efficiency and connectivity, making me a more versatile developer." bgcolor={color} />
                         {/* <Utilitybox date="2010-2012" title="Telecommunication and Information Engineering" subtitle="JKUAT" content="I love this course in as much as it is sometimes difficult to comprehend" bgcolor={color} /> */}
                     </div>
                     <div className="right">
