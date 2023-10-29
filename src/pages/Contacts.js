@@ -39,7 +39,7 @@ const Contacts = ({ color }) => {
             </div>
             <div className="bottom-part">
                 <div className="left">
-                    <h2>My Place</h2>
+                    <h2>My Office</h2>
                     <div className="top-s">
                         <p>4th Floor,B38</p>
                         <p>Ago Gracious Apartments</p>
