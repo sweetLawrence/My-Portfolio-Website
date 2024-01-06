@@ -11,6 +11,8 @@ import Client from './components/Client';
 import Contacts from './pages/Contacts';
 import MobileNav from './components/MobileNav';
 import { useState } from 'react';
+import Portfolio from './pages/Portfolio';
+import Project from './components/Project';
 
 function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -28,7 +30,6 @@ function App() {
 
         <Navbar bgcolor={color} toggleMobileNav={toggleMobileNav} />
         <MobileNav color={color} mobileNavVisible={mobileNavVisible} closeMobileNav={closeMobileNav} />
-
         <Element name="home">
           <Homepage color={color} />
         </Element>
@@ -41,6 +42,9 @@ function App() {
         <Element name="resume">
           <Resume color={color} />
         </Element>
+        <Element name="portfolio">
+          <Portfolio color={color} />
+        </Element>
         <Element name="clients">
           <Clients color={color} />
         </Element>
@@ -49,7 +53,7 @@ function App() {
         </Element>
 
         <Routes>
-          <Route path="/as" element={<Client />} />
+          <Route path="/as" element={<Project />} />
         </Routes>
 
 

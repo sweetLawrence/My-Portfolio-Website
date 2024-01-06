@@ -57,7 +57,7 @@ const Navbar = ({ bgcolor, toggleMobileNav }) => {
                 <ul className="nav-col">
                     {Navdata.map((item, index) => (
                         <Link
-                            onClick={() => setActiveItem(item)}
+                            onClick={() => {setActiveItem(item)}}
                             className={`link ${activeItem === item.toLowerCase() ? 'active' : ''}`}
                             to={`/${item.toLowerCase()}`}>
 
@@ -70,7 +70,7 @@ const Navbar = ({ bgcolor, toggleMobileNav }) => {
 
                                 <li
                                     className={`row ${activeItem === item.toLowerCase() ? 'active' : ''}`}
-                                    style={activeItem === item.toLowerCase() ? navStyle : null}
+                                    // style={activeItem === item.toLowerCase() ? navStyle : null}
                                     key={index}>{item}</li>
                             </ScrollLink>
 

@@ -1,0 +1,63 @@
+.project{
+    border: .1px solid white;
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: .9em;
+    box-shadow: 3px 3px 10px rgb(195, 194, 194);
+}
+.project-image{
+    width: 100%;
+    height: 70%;
+    /* background: red; */
+    border-radius: 5px;
+    border-top: .1px solid rgb(217, 218, 217);
+}
+.project .down{
+    background: rgb(2, 133, 35,.8);
+    height: 30%;
+    padding: .5em;
+    border-radius: 5px;
+    
+}
+.project .links{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.project .title,.project .frontend-deployment a,.github a{
+    color: white;
+    margin: .2em;
+    cursor: pointer;
+}
+.project .frontend-deployment,.github{
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.project a{
+    margin-right: .9em;
+}
+.project .title{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.project-image{
+    /* background: rgb(244, 237, 237); */
+    border-radius: 0;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    scale: .9;
+    transition: all .5s;
+}
+.project-image img:hover{
+    scale: 1;
+}

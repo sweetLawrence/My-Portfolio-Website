@@ -1,0 +1,26 @@
+.portfolio {
+  padding-top: 5em;
+  display: grid;
+  place-items: center;
+  margin: 1em auto 0 auto;
+  width: 100%;
+
+}
+.portfolio .top {
+    margin-bottom: 1.5em;
+}
+.portfolio .top h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 0.9em;
+  }
+.portfolio .bottom-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background: green; */
+    width: 100%;
+}
+.main-container {
+  width: 100%;
+}
