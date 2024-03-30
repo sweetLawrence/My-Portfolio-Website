@@ -24,7 +24,7 @@ const Portfolio = ({ color }) => {
                         className="underline"></div>
                 </div>
                 <div className="bottom-part">
-                  <Project title="Kenyenya TTC" url="" color={color} imageSrc={kenyenya}/>
+                  <Project title="Kenyenya TTC" url="https://www.kenyenyattc.ac.ke" color={color} imageSrc={kenyenya}/>
                   <Project title="Orogare TVC" url="https://www.orogaretechnical.ac.ke/" giturl="" color={color} imageSrc={orogare}/>
                   <Project title="Fitness Tracker" url="https://fitness-tracker-ruby.vercel.app" giturl="https://github.com/sweetLawrence/fitness-tracker" color={color} imageSrc={fitnessTracker}/>
                   <Project title="T-Crypt" url="https://t-crypt.vercel.app" giturl="https://github.com/sweetLawrence/T_Crypt" color={color} imageSrc={tcrypt}/>
