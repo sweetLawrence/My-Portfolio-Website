@@ -8,6 +8,7 @@ import orogare from '../Images/orogare.jpg'
 import tcrypt from '../Images/tcrypt.jpg'
 import tsphere from '../Images/tsphere.jpg'
 import kmis from '../Images/kmis2.jpg'
+import tuinue from '../Images/tuniue.jpg'
 
 const Portfolio = ({ color }) => {
     const underlineStyle = {
@@ -29,6 +30,7 @@ const Portfolio = ({ color }) => {
                   <Project title="T-Crypt" url="https://t-crypt.vercel.app" giturl="https://github.com/sweetLawrence/T_Crypt" color={color} imageSrc={tcrypt}/>
                   <Project title="Ticket Sphere" url="https://www.ticketsphere.co.ke" giturl="" color={color} imageSrc={tsphere}/>
                   <Project title="K-MIS" url="" giturl="" color={color} imageSrc={kmis}/>
+                  <Project title="Tuninue Kids Africa" url="https://tuinue-kids.vercel.app" giturl="" color={color} imageSrc={tuinue}/>
             
                 </div>
 
