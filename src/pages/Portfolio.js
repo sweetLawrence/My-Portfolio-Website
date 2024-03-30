@@ -29,7 +29,7 @@ const Portfolio = ({ color }) => {
                   <Project title="Fitness Tracker" url="https://fitness-tracker-ruby.vercel.app" giturl="https://github.com/sweetLawrence/fitness-tracker" color={color} imageSrc={fitnessTracker}/>
                   <Project title="T-Crypt" url="https://t-crypt.vercel.app" giturl="https://github.com/sweetLawrence/T_Crypt" color={color} imageSrc={tcrypt}/>
                   <Project title="Ticket Sphere" url="https://www.ticketsphere.co.ke" giturl="" color={color} imageSrc={tsphere}/>
-                  <Project title="K-MIS" url="" giturl="" color={color} imageSrc={kmis}/>
+                  {/* <Project title="K-MIS" url="" giturl="" color={color} imageSrc={kmis}/> */}
                   <Project title="Tuninue Kids Africa" url="https://tuinue-kids.vercel.app" giturl="" color={color} imageSrc={tuinue}/>
             
                 </div>
