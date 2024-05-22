@@ -77,7 +77,7 @@ const Contacts = ({ color }) => {
                                 placeholder='Enter Your Message...'
                                 name="message"></textarea>
                         </div>
-                        <Button type='submit ' content="Send" bgcolor={color} />
+                        <Button type='submit' content="Send" bgcolor={color} />
                     </form>
 
                 </div>
